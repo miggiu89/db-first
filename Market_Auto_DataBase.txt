@@ -1,0 +1,29 @@
+market_auto
+
+
+
+id								number		AUTO_INCREMENT			NOT NULL						PRIMARY KEY
+
+marca							string		VARCHAR{20}				NOT NULL
+
+modello							string		VARCHAR{20}				NOT NULL
+
+km_percorsi						number   	MEDIUMINT				NOT NULL
+
+anno_immatricolazione			date		DATE					NOT NULL
+
+prezzo							number		FLOAT{9,2}				NOT NULL
+
+alimentazione					string		{15}					NOT NULL
+
+cilindrata						number		SMALLINT				NOT NULL
+
+potenza							number		SMALLINT				NULL
+
+immagine						string		VARCHAR{70}				NOT NULL Default('default.jpg)
+
+colore 							string		VARCHAR{15}				NULL
+
+n_proprietari					number		TINYINT					NULL
+
+descrizione_prodotto			string		TEXT					NULL
